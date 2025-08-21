@@ -136,7 +136,7 @@
   {
     "group": "Employee",
     "link_doctype": "Employee",
-    "link_fieldname": "employee_name"
+    "link_fieldname": "employee"
   }
 
  ],

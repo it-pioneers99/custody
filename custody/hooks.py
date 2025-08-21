@@ -48,6 +48,10 @@ app_license = "mit"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+doctype_js = {
+	"Purchase Receipt": "public/js/purchase_receipt_client.js"
+}
+
 # Svg Icons
 # ------------------
 # include app icons in desk
@@ -137,13 +141,12 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+    "*": {
+      
+    }
+}
+
 
 # Scheduled Tasks
 # ---------------
@@ -174,9 +177,10 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "custody.event.get_events"
-# }
+
+override_whitelisted_methods = {
+   "custody.api.custody_receipt.create_custody_receipt_from_pr": "custody.custody.api.custody_receipt.create_custody_receipt_from_pr"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,

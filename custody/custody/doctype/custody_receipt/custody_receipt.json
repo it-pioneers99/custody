@@ -132,16 +132,13 @@
    "link_doctype": "Company",
    "link_fieldname": "company_name"
   },
-  {
-   "group": "Employee",
-   "link_doctype": "Employee",
-   "link_fieldname": "custody_receive"
-  },
+  
   {
     "group": "Employee",
     "link_doctype": "Employee",
-    "link_fieldname": "custody_receive"
+    "link_fieldname": "employee_name"
   }
+
  ],
  "modified": "2025-08-21 09:47:56.780278",
  "modified_by": "Administrator",

@@ -136,6 +136,11 @@
    "group": "Employee",
    "link_doctype": "Employee",
    "link_fieldname": "custody_receive"
+  },
+  {
+    "group": "Employee",
+    "link_doctype": "Employee",
+    "link_fieldname": "custody_receive"
   }
  ],
  "modified": "2025-08-21 09:47:56.780278",

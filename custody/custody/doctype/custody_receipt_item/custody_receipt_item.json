@@ -52,18 +52,14 @@
    "fieldname": "purchase_receipt",
    "fieldtype": "Link",
    "label": "Purchase Receipt",
-   "options": "Purchase Receipt",
-   "reqd": 1
+   "options": "Purchase Receipt"
   },
   {
    "bold": 1,
    "fieldname": "purchase_receipt_item",
    "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_preview": 1,
    "label": "Purchase Receipt Item",
-   "options": "Purchase Receipt Item",
-   "reqd": 1
+   "options": "Purchase Receipt Item"
   },
   {
    "fieldname": "column_break_bxhf",
@@ -182,7 +178,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-08-17 08:52:40.648038",
+ "modified": "2025-08-23 16:52:36.985058",
  "modified_by": "Administrator",
  "module": "custody",
  "name": "Custody Receipt Item",

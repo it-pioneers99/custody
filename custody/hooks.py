@@ -48,8 +48,11 @@ app_license = "mit"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+# Add client script for Asset doctype to create custody receipts
 doctype_js = {
-	"Purchase Receipt": "public/js/purchase_receipt_client.js"
+    "Purchase Receipt": "public/js/purchase_receipt_client.js",
+    "Asset": "public/js/asset_client.js",
+    "Custody Receipt": "public/js/custody_receipt_client.js"
 }
 
 # Svg Icons
@@ -177,9 +180,8 @@ doc_events = {
 # Overriding Methods
 # ------------------------------
 #
-
 override_whitelisted_methods = {
-   "custody.api.custody_receipt.create_custody_receipt_from_pr": "custody.custody.api.custody_receipt.create_custody_receipt_from_pr"
+   # "custody.api.custody_receipt.create_custody_receipt_from_pr": "custody.custody.api.custody_receipt.create_custody_receipt_from_pr"
 }
 #
 # each overriding function accepts a `data` argument;

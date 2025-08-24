@@ -106,7 +106,8 @@
    "fieldname": "items",
    "fieldtype": "Table",
    "label": "Items",
-   "options": "Custody Receipt Item"
+   "options": "Custody Receipt Item",
+   "reqd": 1
   },
   {
    "fieldname": "supplier",
@@ -140,7 +141,7 @@
    "link_fieldname": "employee"
   }
  ],
- "modified": "2025-08-24 09:26:58.771416",
+ "modified": "2025-08-24 09:56:14.770207",
  "modified_by": "Administrator",
  "module": "custody",
  "name": "Custody Receipt",

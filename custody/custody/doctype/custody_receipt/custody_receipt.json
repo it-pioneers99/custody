@@ -88,11 +88,13 @@
    "label": "  Employee Signture"
   },
   {
+   "default": "CR-.YYYY.-",
    "fieldname": "naming_series",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "series",
    "options": "CR-.YYYY.-",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -132,15 +134,13 @@
    "link_doctype": "Company",
    "link_fieldname": "company_name"
   },
-  
   {
-    "group": "Employee",
-    "link_doctype": "Employee",
-    "link_fieldname": "employee"
+   "group": "Employee",
+   "link_doctype": "Employee",
+   "link_fieldname": "employee"
   }
-
  ],
- "modified": "2025-08-21 09:47:56.780278",
+ "modified": "2025-08-24 09:26:58.771416",
  "modified_by": "Administrator",
  "module": "custody",
  "name": "Custody Receipt",
